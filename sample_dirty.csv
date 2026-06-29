@@ -1,0 +1,7 @@
+name,age,city,salary
+ Alice ,25, NYC ,50000
+Bob,30,,60000
+Alice,25,NYC,50000
+,40,LA,70000
+Carol,35,LA,80000
+Carol,35,LA,80000
