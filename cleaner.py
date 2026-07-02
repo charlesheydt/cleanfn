@@ -1,5 +1,3 @@
-"""Apply approved cleaning actions to a dataframe."""
-
 from __future__ import annotations
 
 from copy import deepcopy
@@ -12,11 +10,7 @@ import random
 
 
 def apply_actions(df: pd.DataFrame, actions: list[dict[str, Any]]) -> tuple[pd.DataFrame, list[dict[str, Any]]]:
-    """
-    Apply a list of cleaning actions in order.
-
-    Returns the cleaned dataframe and a log of applied steps with row/column deltas.
-    """
+   
     result = df.copy()
     log: list[dict[str, Any]] = []
 

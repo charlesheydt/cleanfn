@@ -1,5 +1,3 @@
-"""Data quality diagnostics for the CSV Data Cleaning Assistant."""
-
 from __future__ import annotations
 
 from typing import Any
@@ -10,7 +8,6 @@ import pandas as pd
 
 
 def run_diagnostics(df: pd.DataFrame, profile: dict[str, Any] | None = None) -> list[dict[str, Any]]:
-    """Detect data quality issues and return structured diagnostic records."""
     issues: list[dict[str, Any]] = []
     n_rows = len(df)
 

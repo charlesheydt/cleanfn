@@ -385,11 +385,6 @@ def validate_recommendations(recommendations):
 
         
 
-    
-
-#when custom bounds is selected, we should add a selection menu that says:
-#convert to null values, impute median, impute mode, impute mean, impute stochastically
-#drop row
 
 if __name__ == "__main__":
     main()

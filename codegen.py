@@ -1,5 +1,3 @@
-"""Generate reproducible Python scripts from applied cleaning actions."""
-
 from __future__ import annotations
 
 from typing import Any

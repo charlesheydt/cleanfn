@@ -1,5 +1,3 @@
-"""Cleaning action recommendations based on diagnostics."""
-
 from __future__ import annotations
 
 from typing import Any
@@ -8,7 +6,6 @@ import pandas as pd
 
 
 def recommend_actions(df: pd.DataFrame, issues: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Map diagnostics to actionable cleaning recommendations."""
     actions: list[dict[str, Any]] = []
     seen: set[str] = set()
 

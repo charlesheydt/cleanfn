@@ -1,5 +1,3 @@
-"""Dataset profiling for the CSV Data Cleaning Assistant."""
-
 from __future__ import annotations
 
 from typing import Any
@@ -9,7 +7,6 @@ import pandas as pd
 
 
 def profile_dataframe(df: pd.DataFrame) -> dict[str, Any]:
-    """Build a summary profile of the uploaded dataframe."""
     n_rows, n_cols = df.shape
     memory_bytes = int(df.memory_usage(deep=True).sum())
     low_card = list()
