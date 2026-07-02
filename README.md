@@ -61,6 +61,29 @@ streamlit run app.py
 
 ## Screenshots
 
+### Quality report
+
+Column-level profile with row counts, null percentages, dtypes, and summary statistics.
+
+![Quality report](images/quality-report.png)
+
+### Diagnostics
+
+Severity-ranked issues such as duplicates, missing values, outliers, and inconsistent categories.
+
+![Diagnostics](images/diagnostics.png)
+
+### Data preview
+
+Scrollable view of the original uploaded data before any cleaning is applied.
+
+![Data preview](images/data-preview.png)
+
+### Clean & export
+
+Review recommended actions by category, apply selected fixes, and download the cleaned CSV plus a reproducible Python script from the **Clean & export** tab.
+
+![Clean & export](images/clean-export.png)
 
 
 ### Quality report
